@@ -1,0 +1,29 @@
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+ 
+public class Exercicio : Form{
+
+    static public void Main(){
+        Application.Run(new Exercicio());
+    }
+ 
+    public Exercicio(){
+        Button b = new Button();
+        b.Text = "Click Me!";
+        b.Click += new EventHandler(Button_Click);
+        Controls.Add(b);
+    }
+ 
+    private void Button_Click(object sender, EventArgs e){ 
+        for(int i = 0; i < 10; i++){
+            if(i % 3 == 0){
+                MessageBox.Show("Multiplo 3: "+i);
+            }
+            else if(i % 4 == 0){
+                MessageBox.Show("Multiplo 4: "+i);
+            }
+        }
+        
+    }
+}
