@@ -1,0 +1,6 @@
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio13\bin\Debug\Exercicio13.exe.config
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio13\bin\Debug\Exercicio13.exe
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio13\bin\Debug\Exercicio13.pdb
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio13\obj\Debug\Exercicio13.csproj.CoreCompileInputs.cache
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio13\obj\Debug\Exercicio13.exe
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio13\obj\Debug\Exercicio13.pdb

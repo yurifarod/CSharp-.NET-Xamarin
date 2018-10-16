@@ -1,0 +1,7 @@
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio10\bin\Debug\Exercicio10.exe.config
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio10\bin\Debug\Exercicio10.exe
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio10\bin\Debug\Exercicio10.pdb
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio10\obj\Debug\Exercicio10.csprojAssemblyReference.cache
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio10\obj\Debug\Exercicio10.csproj.CoreCompileInputs.cache
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio10\obj\Debug\Exercicio10.exe
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio10\obj\Debug\Exercicio10.pdb

@@ -1,0 +1,6 @@
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio20\bin\Debug\Exercicio20.exe.config
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio20\bin\Debug\Exercicio20.exe
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio20\bin\Debug\Exercicio20.pdb
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio20\obj\Debug\Exercicio20.csproj.CoreCompileInputs.cache
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio20\obj\Debug\Exercicio20.exe
+C:\Users\treinamento\source\repos\Exercicio01\Exercicio20\obj\Debug\Exercicio20.pdb
