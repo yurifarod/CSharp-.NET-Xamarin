@@ -1,0 +1,6 @@
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Domain\obj\Debug\SEFAZ.CursoMvc.Domain.csprojAssemblyReference.cache
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Domain\obj\Debug\SEFAZ.CursoMvc.Domain.csproj.CoreCompileInputs.cache
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Domain\bin\Debug\SEFAZ.CursoMvc.Domain.dll
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Domain\bin\Debug\SEFAZ.CursoMvc.Domain.pdb
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Domain\obj\Debug\SEFAZ.CursoMvc.Domain.dll
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Domain\obj\Debug\SEFAZ.CursoMvc.Domain.pdb
