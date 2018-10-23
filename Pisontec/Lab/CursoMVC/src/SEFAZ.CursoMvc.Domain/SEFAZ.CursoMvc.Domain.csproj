@@ -36,8 +36,11 @@
   <ItemGroup>
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Endereco.cs" />
+    <Compile Include="Interfaces\Repository\IFiliacaoRepository.cs" />
     <Compile Include="Interfaces\Repository\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\FiliacaoService.cs" />
+    <Compile Include="Services\IFiliacaoServices.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
