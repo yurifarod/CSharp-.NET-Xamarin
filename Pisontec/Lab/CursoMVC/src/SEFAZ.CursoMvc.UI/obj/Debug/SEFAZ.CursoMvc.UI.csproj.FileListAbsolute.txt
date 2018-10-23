@@ -75,6 +75,7 @@ C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\Microso
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\Newtonsoft.Json.dll
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\Owin.dll
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\SEFAZ.CursoMvc.Application.dll
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\System.Diagnostics.DiagnosticSource.dll
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\System.Web.Helpers.dll
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\System.Web.Mvc.dll
@@ -84,6 +85,10 @@ C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\System.
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\System.Web.WebPages.dll
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\System.Web.WebPages.Razor.dll
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\WebGrease.dll
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\SEFAZ.CursoMvc.Domain.dll
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\AutoMapper.dll
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\System.ValueTuple.dll
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\SEFAZ.CursoMvc.Application.pdb
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\System.Web.Helpers.xml
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\System.Web.Mvc.xml
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\System.Web.Optimization.xml
@@ -113,6 +118,10 @@ C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\Microso
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\Microsoft.AI.Web.xml
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\SEFAZ.CursoMvc.Domain.pdb
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\AutoMapper.pdb
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\AutoMapper.xml
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\System.ValueTuple.xml
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\pt-br\System.Web.Helpers.resources.dll
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\pt-br\System.Web.Mvc.resources.dll
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\pt-br\System.Web.Optimization.resources.dll
