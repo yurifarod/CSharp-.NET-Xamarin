@@ -12,3 +12,8 @@ C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Application\ob
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Application\obj\Debug\SEFAZ.CursoMvc.Application.csproj.CopyComplete
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Application\obj\Debug\SEFAZ.CursoMvc.Application.dll
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Application\obj\Debug\SEFAZ.CursoMvc.Application.pdb
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Application\bin\Debug\SEFAZ.CursoMvc.Infra.Data.dll
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Application\bin\Debug\EntityFramework.dll
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Application\bin\Debug\SEFAZ.CursoMvc.Infra.Data.pdb
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Application\bin\Debug\SEFAZ.CursoMvc.Infra.Data.dll.config
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.Application\bin\Debug\EntityFramework.xml

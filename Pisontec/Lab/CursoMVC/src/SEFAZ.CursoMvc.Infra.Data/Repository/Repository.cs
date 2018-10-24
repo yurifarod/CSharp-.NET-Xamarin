@@ -43,7 +43,6 @@ namespace SEFAZ.CursoMvc.Infra.Data.Repository
         {
             db.Dispose();
             GC.SuppressFinalize(this);
-            //throw new NotImplementedException();
         }
 
         public TEntity ObterPorId(Guid guid)

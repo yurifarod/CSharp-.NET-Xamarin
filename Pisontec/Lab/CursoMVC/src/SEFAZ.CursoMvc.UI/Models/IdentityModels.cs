@@ -31,5 +31,8 @@ namespace SEFAZ.CursoMvc.UI.Models
         }
 
         public System.Data.Entity.DbSet<SEFAZ.CursoMvc.Application.ViewModels.ClienteViewModel> ClienteViewModels { get; set; }
+
+        //Conteúdo comentado para remover o contexto de banco criado automaticamento pelos gerados na camada de aplicação
+        //public System.Data.Entity.DbSet<SEFAZ.CursoMvc.Application.ViewModels.ClienteViewModel> ClienteViewModels { get; set; }
     }
 }

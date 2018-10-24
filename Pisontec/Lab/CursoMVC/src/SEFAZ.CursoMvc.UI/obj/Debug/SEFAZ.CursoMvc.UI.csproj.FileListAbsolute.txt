@@ -137,3 +137,6 @@ C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\obj\Debug\S
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\obj\Debug\SEFAZ.CursoMvc.UI.csproj.CopyComplete
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\obj\Debug\SEFAZ.CursoMvc.UI.dll
 C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\obj\Debug\SEFAZ.CursoMvc.UI.pdb
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\SEFAZ.CursoMvc.Infra.Data.dll
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\SEFAZ.CursoMvc.Infra.Data.pdb
+C:\Users\treinamento\source\repos\Lab\CursoMVC\src\SEFAZ.CursoMvc.UI\bin\SEFAZ.CursoMvc.Infra.Data.dll.config

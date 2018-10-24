@@ -12,6 +12,11 @@ namespace SEFAZ.CursoMvc.Domain.Services
     {
         private readonly IFiliacaoRepository _filiacaoRepository;
 
+        public FiliacaoService(IFiliacaoRepository filiacaoRepository)
+        {
+            _filiacaoRepository = filiacaoRepository;
+        }
+
         public Cliente Adicionar(Cliente cliente)
         {
             return _filiacaoRepository.Adicionar(cliente);

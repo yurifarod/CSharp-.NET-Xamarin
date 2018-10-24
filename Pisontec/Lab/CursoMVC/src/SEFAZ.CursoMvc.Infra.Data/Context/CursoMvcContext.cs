@@ -12,9 +12,8 @@ namespace SEFAZ.CursoMvc.Infra.Data.Context
 {
     public class CursoMvcContext : DbContext
     {
-        public CursoMvcContext()
+        public CursoMvcContext() : base("DefaultConnection")
         {
-            //:base("DefaultConnection")
 
         }
 

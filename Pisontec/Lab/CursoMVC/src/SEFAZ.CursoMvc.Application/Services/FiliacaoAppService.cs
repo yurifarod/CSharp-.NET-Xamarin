@@ -3,6 +3,7 @@ using SEFAZ.CursoMvc.Application.Interfaces;
 using SEFAZ.CursoMvc.Application.ViewModels;
 using SEFAZ.CursoMvc.Domain.Entities;
 using SEFAZ.CursoMvc.Domain.Services;
+using SEFAZ.CursoMvc.Infra.Data.UnitOfWork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,11 +12,11 @@ using System.Threading.Tasks;
 
 namespace SEFAZ.CursoMvc.Application.Services
 {
-    public class FiliacaoAppService : IFiliacaoAppService
+    public class FiliacaoAppService : AppService, IFiliacaoAppService
     {
         private readonly IFiliacaoServices _filiacaoService;
 
-        public FiliacaoAppService(IFiliacaoServices filiacaoService)
+        public FiliacaoAppService(IFiliacaoServices filiacaoService, IunitOfWork unitofWork) : base(unitofWork)
         {
             _filiacaoService = filiacaoService;
         }

@@ -54,6 +54,7 @@
     <Compile Include="AutoMapper\DomainToViewModelMappingProfile.cs" />
     <Compile Include="Interfaces\IFiliacaoAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AppService.cs" />
     <Compile Include="Services\FiliacaoAppService.cs" />
     <Compile Include="ViewModels\ClienteEnderecoViewModel.cs" />
     <Compile Include="ViewModels\ClienteViewModel.cs" />
@@ -67,6 +68,10 @@
     <ProjectReference Include="..\SEFAZ.CursoMvc.Domain\SEFAZ.CursoMvc.Domain.csproj">
       <Project>{2BD898BD-529E-4E5E-B061-8D298A05602C}</Project>
       <Name>SEFAZ.CursoMvc.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SEFAZ.CursoMvc.Infra.Data\SEFAZ.CursoMvc.Infra.Data.csproj">
+      <Project>{806CDE6B-9A56-4FF8-B838-28B5C1C4C2B2}</Project>
+      <Name>SEFAZ.CursoMvc.Infra.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -48,6 +48,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\FiliacaoRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
+    <Compile Include="UnitOfWork\IunitOfWork.cs" />
+    <Compile Include="UnitOfWork\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

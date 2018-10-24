@@ -6,19 +6,26 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using SEFAZ.CursoMvc.Application.Interfaces;
 using SEFAZ.CursoMvc.Application.ViewModels;
 using SEFAZ.CursoMvc.UI.Models;
 
+/*A classe foi alterada para usar os contextos de banco de dados criados na nosas camada de aplicação (ViewModel)*/
 namespace SEFAZ.CursoMvc.UI.Controllers
 {
     public class FiliacaoController : Controller
     {
-        private ApplicationDbContext db = new ApplicationDbContext();
+        private readonly IFiliacaoAppService _filiacaoAppService;
+
+        public FiliacaoController(IFiliacaoAppService filiacaoAppService)
+        {
+            _filiacaoAppService = filiacaoAppService;
+        }
 
         // GET: Filiacao
         public ActionResult Index()
         {
-            return View(db.ClienteViewModels.ToList());
+            return View(_filiacaoAppService.ObterTodos().ToList());
         }
 
         // GET: Filiacao/Details/5
@@ -28,7 +35,7 @@ namespace SEFAZ.CursoMvc.UI.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            ClienteViewModel clienteViewModel = db.ClienteViewModels.Find(id);
+            ClienteViewModel clienteViewModel = _filiacaoAppService.ObterPorId(id.Value);
             if (clienteViewModel == null)
             {
                 return HttpNotFound();
@@ -45,19 +52,18 @@ namespace SEFAZ.CursoMvc.UI.Controllers
         // POST: Filiacao/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ClienteId,Nome,CPF,Email,DataCadastro,DataNascimento,Ativo")] ClienteViewModel clienteViewModel)
+        public ActionResult Create(ClienteEnderecoViewModel clienteEnderecoViewModel)
         {
             if (ModelState.IsValid)
             {
-                clienteViewModel.ClienteId = Guid.NewGuid();
-                db.ClienteViewModels.Add(clienteViewModel);
-                db.SaveChanges();
+                var clienteReturn = _filiacaoAppService.Adicionar(clienteEnderecoViewModel).ClienteViewModel;
                 return RedirectToAction("Index");
             }
 
-            return View(clienteViewModel);
+            return View(clienteEnderecoViewModel);
         }
 
         // GET: Filiacao/Edit/5
@@ -67,7 +73,7 @@ namespace SEFAZ.CursoMvc.UI.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            ClienteViewModel clienteViewModel = db.ClienteViewModels.Find(id);
+            ClienteViewModel clienteViewModel = _filiacaoAppService.ObterPorId(id.Value);
             if (clienteViewModel == null)
             {
                 return HttpNotFound();
@@ -80,12 +86,12 @@ namespace SEFAZ.CursoMvc.UI.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ClienteId,Nome,CPF,Email,DataCadastro,DataNascimento,Ativo")] ClienteViewModel clienteViewModel)
+        public ActionResult Edit(ClienteViewModel clienteViewModel)
         {
             if (ModelState.IsValid)
             {
-                db.Entry(clienteViewModel).State = EntityState.Modified;
-                db.SaveChanges();
+                _filiacaoAppService.Atualizar(clienteViewModel);
+                
                 return RedirectToAction("Index");
             }
             return View(clienteViewModel);
@@ -98,7 +104,7 @@ namespace SEFAZ.CursoMvc.UI.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            ClienteViewModel clienteViewModel = db.ClienteViewModels.Find(id);
+            ClienteViewModel clienteViewModel = _filiacaoAppService.ObterPorId(id.Value);
             if (clienteViewModel == null)
             {
                 return HttpNotFound();
@@ -111,9 +117,7 @@ namespace SEFAZ.CursoMvc.UI.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(Guid id)
         {
-            ClienteViewModel clienteViewModel = db.ClienteViewModels.Find(id);
-            db.ClienteViewModels.Remove(clienteViewModel);
-            db.SaveChanges();
+            _filiacaoAppService.Remover(id);
             return RedirectToAction("Index");
         }
 
@@ -121,7 +125,7 @@ namespace SEFAZ.CursoMvc.UI.Controllers
         {
             if (disposing)
             {
-                db.Dispose();
+                _filiacaoAppService.Dispose();
             }
             base.Dispose(disposing);
         }
