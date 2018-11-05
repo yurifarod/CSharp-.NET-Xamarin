@@ -1,0 +1,22 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    var u = User;
+
+    <div class="user-panel">
+        <div class="pull-left image">
+            <img src="~/_AdminLTE/dist/img/user.svg" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+            <p></p>
+            <p>@(u.Identity.Name)</p>
+            <!-- Status -->
+            @*<a href="#"><i class="fa fa-circle text-success"></i> Online</a>*@
+        </div>
+    </div>
+}
+
